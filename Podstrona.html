@@ -9,12 +9,16 @@
             background-repeat: no-repeat;
             background-color: deepskyblue;
         }
-        table {
-            border-style: solid;
-            border-color: blue;
-            padding-left: 450px;
-            padding-right: 450px;
+
+        .tabela1 {
+            background-image: url(Tło.jpg);
+            padding-left: 800px;
+            padding-right: 10000px;
+            font-style: oblique;
+            color: deepskyblue;
+            font-size: 50px;
         }
+
         a {
             text-decoration: none;
             color: black
@@ -23,19 +27,47 @@
             a:hover {
                 color: orangered
             }
-            .wysrodkowanie{
-                text-align:center
-            }
-            img{
-                height:180px;
-                width:330px;
-            }
+
+        .tabela2 {
+            border-style: solid;
+            border-color: blue;
+            padding-left: 450px;
+            padding-right: 450px;
+            font-size:20px;
+
+        }
+
+        img {
+            height: 180px;
+            width: 330px;
+        }
+        button{
+            background-color:deepskyblue;
+            height:100px;
+            width:300px;
+        }
     </style>
 </head>
 <body>
     <center>
-        <table>
-            <tr><td></td><th><p class="wysrodkowanie">Przykłady moich prac:</p></th><td></td></tr>
+        <table class="tabela1">
+            <tr><th></th><td>Przykłady&nbsp;parac:</td><th></th></tr>
+            
+        </table>
+    </center><br /><br /><br />
+    <center>
+        <table class="tabela2">
+            <tr><td></td><th><p>Przykłady moich prac:</p></th><td></td></tr>
+
+            <tr><td>Przeglądarka internetowa Google</td><td></td><td>Portal internetowy Youtube</td></tr>
+
+            <tr><td><img src="Google.png"></td><td></td><td><img src="YouTube-Logo.png"></td></tr>
+
+            <tr><td><a target="_blank" href="https://www.google.com/">Przekierowanie do strony</a></td><td></td><td><a target="_blank" href="https://www.youtube.com/">Przekierowanie do strony</a></td></tr>
+
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
 
             <tr><td>Przeglądarka internetowa Google</td><td></td><td>Portal internetowy Youtube</td></tr>
 
@@ -44,7 +76,7 @@
             <tr><td><a target="_blank" href="https://www.google.com/">Przekierowanie do strony</a></td><td></td><td><a target="_blank" href="https://www.youtube.com/">Przekierowanie do strony</a></td></tr>
         </table><br />
         <table>
-            <tr><td><a href="https://reiwilion.github.io/">Powrót do strony głównej</a></td></tr>
+            <tr><td><button><a href="https://reiwilion.github.io/">Powrót do strony głównej</a></button></td></tr>
         </table>
     </center>
 </body>

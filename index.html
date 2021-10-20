@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,7 +6,7 @@
     <style>
         body {
             background-image: url('potrzebne.png');
-            background-position: top right;
+            background-position:  right;
             background-repeat: no-repeat;
             background-color: deepskyblue;
         }
@@ -23,13 +23,35 @@
             color: black
         }
 
-        img {
-            width: 180px;
-            height: 180px;
+        .wielkość_png1{
+            height: 160px;
+            width: 160px;
+        }
+        .wielkość_jpg{
+            position:absolute;
+            height:200px;
+            width:200px;
+            opacity:0.8;
+            top:auto;
+        }
+        th{
+            font-size:70px;
+        }
+        table{
+            background-image:url(Tło.jpg);
+            padding-left: 800px;
+            padding-right: 1000px;
+            font-style:oblique;
+            color:deepskyblue;
         }
     </style>
 </head>
 <body>
+    <center>
+        <table>
+            <tr><th>Portfolio</th></tr>
+        </table>
+    </center>
     <div>
         <p>
             Dzień dobry. Nazywam się Oliwier Ozieriański.<br />
@@ -48,7 +70,7 @@
             Aby przeiść do prac naciśnij plus poniżej.<br />
         </p>
 
-        <a target="_blank" style="margin:50px;" href="Podstrona.html"><img src="potrzebne1.png" /></a>
+        <a style="margin:50px;" href="Podstrona.html"><img class="wielkość_png1" src="potrzebne1.png" /></a>
     </div>
 
 

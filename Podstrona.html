@@ -43,11 +43,23 @@
         }
         button{
             background-color:deepskyblue;
-            height:100px;
-            width:300px;
         }
-        button{
+        .button1{
             border-color:blue;
+            height:50px;
+        }
+        .button2 {
+            border-color: green;
+            height: 100px;
+            width: 300px;
+        }
+        .komórki1{
+            height:200px;
+            width:1000px;
+        }
+        .komórki2 {
+            height: 200px;
+            width: 200px;
         }
     </style>
 </head>
@@ -64,22 +76,20 @@
 
             <tr><td>Przeglądarka internetowa Google</td><td></td><td>Portal internetowy Youtube</td></tr>
 
-            <tr><td><img src="Google.png"></td><td></td><td><img src="YouTube-Logo.png"></td></tr>
+            <tr><td><img src="Google.png"></td><td class="komórki1"></td><td><img src="YouTube-Logo.png"></td></tr>
 
-            <tr><td><a target="_blank" href="https://www.google.com/">Przekierowanie do strony</a></td><td></td><td><a target="_blank" href="https://www.youtube.com/">Przekierowanie do strony</a></td></tr>
+            <tr><td><a href="https://www.google.com/"><button class="button1">Powrót do strony</button></a></td><td></td><td><a target="_blank" href="https://www.youtube.com/"><button class="button1">Przekierowanie do strony</button></a></td></tr>
 
-            <tr><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td></tr>
+            <tr class="komórki2"><td></td><td></td><td></td></tr>
 
             <tr><td>Przeglądarka internetowa Firefox</td><td></td><td>Portal internetowy Facebook</td></tr>
 
             <tr><td><img src="Firefox.png"></td><td></td><td><img src="Facebook.png"></td></tr>
 
-            <tr><td><a target="_blank" href="https://www.mozilla.org/pl/firefox/">Przekierowanie do strony</a></td><td></td><td><a target="_blank" href="https://www.youtube.com/">Przekierowanie do strony</a></td></tr>
+            <tr><td><a target="_blank" href="https://www.mozilla.org/pl/firefox/"><button class="button1">Przekierowanie do strony</button></a></td><td></td><td><a target="_blank" href="https://www.facebook.com/"><button class="button1">Przekierowanie do strony</button></a></td></tr>
         </table><br />
         <table>
-            <tr><td><a href="https://reiwilion.github.io/"><button>Powrót do strony głównej</button></a></td></tr>
+            <tr><td><a href="https://reiwilion.github.io/"><button class="button2">Powrót do strony głównej</button></a></td></tr>
         </table>
     </center>
 </body>

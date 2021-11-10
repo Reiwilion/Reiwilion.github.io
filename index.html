@@ -5,17 +5,16 @@
     <title></title>
     <style>
         body {
-            background-image: url('potrzebne.png');
-            background-position:  right;
-            background-repeat: no-repeat;
+            background-image: url(tło-body.jpg);
             background-color: deepskyblue;
         }
 
         p {
             text-align: left;
             white-space: pre-wrap;
-            font-size: 18px;
+            font-size: 2.1vh;
             font-style: italic;
+            color: lawngreen;
         }
 
         a {
@@ -23,56 +22,60 @@
             color: black
         }
 
-        .wielkość_png1{
+        .png1 {
             height: 16vh;
             width: 16vh;
         }
-        .wielkość_jpg{
-            position:absolute;
-            height:20vh;
-            width:20vh;
-            opacity:0.8;
-            top:auto;
+
+        .png2 {
+            position: absolute;
+            right: 10vh;
+            top: 20vh;
         }
-        th{
-            font-size:70px;
+
+        th {
+            font-size: 7vh;
         }
-        table{
+
+        .div {
             background-image:url(Tło.jpg);
-            padding-left: 80.5vh;
-            padding-right: 85.5vh;
-            font-style:oblique;
-            color:deepskyblue;
+            padding-left: 45%;
+            padding-right: 50%;
+            font-style: oblique;
+            color: lawngreen;
+            height:10vh;
+            font-size:8vh;
         }
     </style>
 </head>
 <body>
-    <center>
-        <table>
-            <tr><th>Portfolio</th></tr>
-        </table>
-    </center>
     <div>
-        <p>
-            Dzień dobry. Nazywam się Oliwier Ozieriański.<br />
-            Jestem nadal całkiem młodym programistą,<br />
-            z ogromną motywacją do pracy! Mam nadzieję,<br />
-            że przygotowana strona przekona Cię do skorzystania z usług mojej firmy.<br />
-            Wierzę, że razem możemy zrobić coś fajnego!<br />
-        </p>
-        <p>
-            Posiadam ponad trzydziestoletnie doświadczenie.<br />
-            W tym czasie zrealizowałem tysiące projektów informatycznych.<br />
-            Były to strony internetowe, złozone aplikacje bazodanowe,<br />
-            aplikacje mobilne, zawansowane gry komputerowe,<br />
-            czy też portale internetowe z ogromną z ogromną ilością czytelników.<br />
-            Wierzę, że zainteresują Cię również przykłady moich prac.<br />
-            Aby przeiść do prac naciśnij plus poniżej.<br />
-        </p>
+        <div class="div">
+            Portfolio
+        </div>
+        <div>
+            <p>
+                Dzień dobry. Nazywam się Oliwier Ozieriański.<br />
+                Jestem nadal całkiem młodym programistą,<br />
+                z ogromną motywacją do pracy! Mam nadzieję,<br />
+                że przygotowana strona przekona Cię do skorzystania z usług mojej firmy.<br />
+                Wierzę, że razem możemy zrobić coś fajnego!<br />
+            </p>
+            <p>
+                Posiadam ponad trzydziestoletnie doświadczenie.<br />
+                W tym czasie zrealizowałem tysiące projektów informatycznych.<br />
+                Były to strony internetowe, złozone aplikacje bazodanowe,<br />
+                aplikacje mobilne, zawansowane gry komputerowe,<br />
+                czy też portale internetowe z ogromną z ogromną ilością czytelników.<br />
+                Wierzę, że zainteresują Cię również przykłady moich prac.<br />
+                Aby przeiść do prac naciśnij plus poniżej.<br />
+            </p>
+        </div>
+        <div>
+            <img class="png2" src="potrzebne.png" />
 
-        <a style="margin:50px;" href="https://reiwilion.github.io/Podstrona.html"><img class="wielkość_png1" src="potrzebne1.png" /></a>
+            <a style="margin:50px;" href="https://reiwilion.github.io/Podstrona.html"><img class="png1" src="potrzebne1.png" /></a>
+        </div>
     </div>
-
-
 </body>
 </html>
